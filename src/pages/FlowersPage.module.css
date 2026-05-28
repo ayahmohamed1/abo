@@ -101,14 +101,25 @@
 .poemBox {
   background: #ffbbc0;
   border: 1px solid color-mix(in srgb, var(--red-pale) 50%, transparent);
-  border-radius: 20px; /* خليتها 20 بدل 100 عشان لو الكلام سطرين البوكس ميبقاش شكله غريب */
-  padding: 0.6rem 1.2rem; /* كبرنا المسافة الداخلية عشان البوكس يعرض */
-  font-family: var(--font-body), 'Segoe UI', Tahoma, Arial, sans-serif; /* ضفت خطوط العربي هنا كمان */
-  font-size: 0.95rem; /* كبرنا حجم الخط جداً بدل 0.7 */
-  font-weight: 500; /* تخنا الخط سيكا عشان يوضح */
+  border-radius: 20px; 
+  padding: 0.6rem 1.2rem; 
+  font-family: var(--font-body), 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-size: 0.95rem; 
+  font-weight: 500; 
   color: var(--text-light);
-  line-height: 1.6; /* وسعنا المسافة بين السطور */
+  line-height: 1.6; 
   text-align: center;
+  
+  /* الخصائص اللي كانت في الكلاس الأولاني */
+  width: 100%;
+  min-height: 90px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  /* السطر السحري عشان الـ \n تشتغل */
+  white-space: pre-line;
 }
 
 /* Mobile: stack columns */

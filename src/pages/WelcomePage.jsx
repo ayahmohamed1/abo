@@ -33,7 +33,7 @@ export default function WelcomePage({ go, content, name }) {
           <CatSVG />
         </motion.div>
 
-        {/* Text */}
+       {/* Text */}
         <motion.div
           className={styles.textBlock}
           initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function WelcomePage({ go, content, name }) {
           transition={{ delay: 0.25 }}
         >
           <span className={styles.hello}>{w.greeting}</span>
-          <span className={styles.nameText}>{name}</span>
+          <span className={styles.nameText}>{w.name}</span>
         </motion.div>
 
         <motion.p

@@ -7,7 +7,8 @@ const content = {
   music: '/music/music.mp3',
 
   welcome: {
-    greeting: 'Hello',
+    greeting: 'hello ',
+    name: 'my love',
     question: 'would you like to open your gift?',
     yesButton: 'YES PLEASE',
     noButton: 'NO THANKS',
@@ -15,7 +16,7 @@ const content = {
 
   noThanks: {
     message: "i promise you'll like it",
-    tryAgainButton: 'OKAY FINE',
+    tryAgainButton: 'TRY AGAIN',
   },
 
   menu: {
@@ -24,7 +25,7 @@ const content = {
     items: [
       { id: 'memories', icon: '📸', label: 'Captured\nMemories' },
       { id: 'flowers',  icon: '🌷', label: 'Virtual\nFlowers'   },
-      
+      { id: 'song',   icon: '🎵', label: 'our\nsong'       },
       { id: 'letter',   icon: '💌', label: 'Love\nLetter'       },
       { id: 'locks',   icon: '🔒', label: 'Lock\nus'       },
     ],
@@ -43,6 +44,8 @@ const content = {
     ],
   },
 
+  
+
   flowers: {
     title: 'for you',
     returnButton: 'RETURN',
@@ -52,7 +55,7 @@ const content = {
       'وددت ان اعانقك لمدة طويلة عناق يكفيني لكل الايام التي تخلو منك ❣️',
       'كل عام وانا احبك لالف عام حلوة سنيني فيك يا عيد عمري ❤️',
       'يقول خالد عبد الرحمن تفداك روحي ان كانت الروح تكفيك وان ماكفتك الروح يفداك عمري ❣️',
-      'يوم حدتني الليالي ومستني الظروف صدو اشباه الرجال وانقذته مره يا اجمل مرأة شفتها في حياتي ❣️',
+      '"يوم حدتني الليالي ومستني الظروف صدو اشباه الرجال وانقذته مره"\nيا اجمل مرأة شفتها في حياتي ❣️',
       'تباهي وغني واضحكي لا يهمك شي لا مالت ظروفك فيك لك من يعدلها بتلقين لك في جوف قلبي براد وفي هنا منزلك والناس تعرف منازلها',
       'لقيتك في مساعي العمر صدفة صدفة تساوي العمر كله ❤️',
       'احبك وصل وبعاد واحبك رضي وعناد ❣️',
